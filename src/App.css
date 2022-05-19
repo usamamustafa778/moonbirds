@@ -87,6 +87,11 @@
 }
 
 
+
+
+
+
+
 @media screen and (max-width:800px){
   .roadmap{
     align-items: center;
@@ -97,3 +102,5 @@
     height: auto !important;
   }
 }
+
+
