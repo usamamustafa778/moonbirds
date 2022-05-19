@@ -2,7 +2,7 @@ import React from "react";
 
 function Collection() {
   return (
-    <div className="container-fluid py-4">
+    <div className="container-fluid py-4 collection">
       <div className="container">
         <div className="row">
           <div className="col-md-6 p-5 text-white d-flex align-items-center justify-content-center flex-column">

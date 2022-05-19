@@ -1,6 +1,6 @@
-import React from 'react'
 import Birds from '../Components/Birds'
 import Collection from '../Components/Collection'
+import Copyright from '../Components/Copyright'
 import FAQS from '../Components/FAQS'
 import Header from '../Components/Header'
 import Highrise from '../Components/Highrise'
@@ -17,6 +17,7 @@ function Home() {
         <Highrise/>
         <Roadmap />
         <FAQS/>
+        <Copyright/>
     </>
   )
 }

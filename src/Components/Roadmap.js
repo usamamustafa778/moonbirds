@@ -2,7 +2,7 @@ import React from "react";
 
 function Roadmap() {
   return (
-    <div className="container-fluid py-5">
+    <div className="container-fluid py-5 roadmap-container">
       <div className="container">
         <div className="row text-white justify-content-center">
           <h5 className="text-center">BUILT RIGHT FROM THE BEGINNING</h5>

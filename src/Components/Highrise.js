@@ -2,14 +2,14 @@ import React from "react";
 
 function Highrise() {
   return (
-    <div className="container-fluid py-4">
+    <div className="container-fluid py-4 highrise">
       <div className="container">
         <div className="row flex-column align-items-center">
           <div className="col-md-6 p-5 d-flex">
             <img src="/images/Highrise.svg" alt="" className="w-100" />
           </div>
           <div className="col-md-8 p-5 text-white">
-            <h4 className="text-light mb-0">NEXT UP</h4>
+            <h4 className="mb-0">NEXT UP</h4>
             <h1 className="text-green section__heading mb-4">Highrise</h1>
             Moonbirds is brought to you by PROOF; the team behind the PROOF
             Collective and Grails. Our next project, codenamed Highrise is a

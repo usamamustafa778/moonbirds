@@ -1,30 +1,37 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Header() {
+
+  const [num, setNum] = useState(0);
+
   return (
-    <div className="container-fluid header text-white">
-      <div className="container">
+    <div className="container-fluid header text-white py-5">
+      <div className="container mb-5 mb-md-2 mb-lg-5">
         <div className="row justify-content-center">
-          <div className="col-md-4">
+          <div className="col-md-6 col-lg-4 px-5">
             <img src="/images/title-text.svg" className="w-100 mt-5" alt="" />
           </div>
+          <div className="col-lg-3 col-md-4 px-5 px-md-4 px-lg-5 d-flex-justify-content-end">
+            <button className="mt-5 btn-purple  mt-3 w-100">CONNECT WALLET</button>
+          </div>
         </div>
-        <div className="row justify-content-center">
-          <div className="col-md-7  mt-5">
+        <div className="row justify-content-center px-5 px-md-4">
+          <div className="col-lg-8 col-md-10 col-12  mt-5">
             <div className="row site__box">
-              <div className="col-md-7 p-5 siteBox__left d-flex flex-column align-items-center">
+              <div className="col-lg-7 col-md-7 p-4 p-lg-5 siteBox__left d-flex flex-column align-items-center">
                 <img
                   className="moonbird-logo"
                   src="/images/moonbird-official-pfp.png"
                   alt=""
                 />
                 <h5 className="text-center mt-5">Find a Moonbird</h5>
-                <div className="row flex-column mt-5 w-100">
-                  <a className="btn-green col-md-12">VIEW ON OPEN SEA</a>
+                <div className="row flex-column mt-4 w-100">
+                <input value={num} onChange={(e) => {setNum(e.target.value)}} min={0} type="number" className="w-100 mt-2 btn-green header__input" />
+                  <a className="btn-green mt-2">VIEW ON OPEN SEA</a>
                   <a className="btn-green mt-2">VIEW ON LOOKSRARE</a>
                 </div>
               </div>
-              <div className="col-md-5 p-5 d-flex flex-column align-items-center justify-content-between siteBox__right">
+              <div className="col-lg-5 col-md-5 p-4 p-lg-5 d-flex flex-column align-items-center justify-content-between siteBox__right">
                 <div className="header-svg">
                   <svg
                     viewBox="0 0 116 94"

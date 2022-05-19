@@ -2,14 +2,14 @@ import React from "react";
 
 function Nesting() {
   return (
-    <div className="container-fluid py-4">
+    <div className="container-fluid py-4 nesting">
       <div className="container">
         <div className="row">
           <div className="col-md-6 p-5">
             <img src="/images/nesting.png" alt="" className="w-100" />
           </div>
           <div className="col-md-6 p-5 text-white d-flex align-items-center justify-content-center flex-column">
-            <h1 className="text-purple section__heading mb-4">
+            <h1 className="text-green section__heading mb-4">
               Nesting your Moonbird
             </h1>
             Moonbirds come with a unique PFP design that allows them to be
