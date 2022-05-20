@@ -123,15 +123,22 @@
 /* Style */
 .css-1elwnq4-MuiPaper-root-MuiAccordion-root {
   background-color: inherit !important;
-  color: var(--purple) !important;
   border-top: 1px solid rgba(128, 128, 128, 0.393) !important;
   padding: 15px 0px;
+}
+.css-ahj2mt-MuiTypography-root{
+  color: var(--purple) !important;
+  font-size: 17px !important;
+}
+.css-ahj2mt-MuiTypography-root:hover{
+  opacity: 0.8 !important;
 }
 .css-yw020d-MuiAccordionSummary-expandIconWrapper{
   color: #fff !important;
 }
 .css-15v22id-MuiAccordionDetails-root > p{
-  color: #ffff !important;
+  color: rgb(220, 220, 220) !important;
+  font-weight: 200px !important;
 }
 
 
@@ -148,6 +155,14 @@
   height: 1px;
   background-color:#58557A;
 }
+.social-icons > a:hover{
+  opacity:0.8;
+}
+
+
+
+
+
 
 @media screen and (max-width:1000px){
   .header{
